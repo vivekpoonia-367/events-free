@@ -1,0 +1,181 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1044px;
+    padding-right: 12px;
+    padding-left: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.col-5 {
+    width: 41.66%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.min-vh-100 {
+    min-height: 100vh;
+}
+
+.color {
+    color: white;
+}
+
+.padding-top {
+    padding-top: 90px;
+}
+
+.alin-itm-cntr {
+    align-items: center;
+}
+
+.pading-top {
+    padding-top: 70px;
+}
+
+.pd-top {
+    padding-top: 24px;
+}
+
+.margin {
+    margin-left: 15.4px;
+    margin-right: 15.4px;
+}
+
+.col-7 {
+    width: 58.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.font {
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.margin-top {
+    margin-top: 126px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.mt {
+    margin-top: 12px;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.col-3 {
+    width: 25%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col_4 {
+    width: 33.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-6 {
+    width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-12 {
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.mt-b {
+    margin-top: 10px;
+}
+
+.mt_12 {
+    margin-top: 12px;
+}
+
+.vh-100 {
+    height: 100%;
+}
+
+@media (min-width:576px) {
+    .col-sm-12 {
+        width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+
+    }
+
+    .col-sm-3 {
+        width: 25%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+@media (min-width:576px) {
+    .col-md-6 {
+        width: 50%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+}
+
+@media (min-width:992px) {
+    .col-lg-5 {
+        width: 41.66%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .mb-lg-0 {
+        margin-bottom: 0px;
+
+    }
+
+    .col-lg-7 {
+        width: 58.33%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .col-lg-3 {
+        width: 25%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
